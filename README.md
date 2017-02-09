@@ -20,7 +20,9 @@ where:
 Function inputs
 
 y : onput of the system 
+
 nn : suppose order of the denominator polynomail [A(z)]
+     
      nn should bigger than the true order
 
 Function Output
