@@ -32,7 +32,7 @@ L = chol(Sff)';
 ss=diag(S1);
 
 %Bar graph of singular values,check the true order
-bar(ss);
+%bar(ss);
  
 slope=[];
 for k=1:(length(ss)-1)
