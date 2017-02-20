@@ -10,4 +10,5 @@ G=tf(num,den,Ts);
 
 x = chirp(t,0,1,250);  
 [y,t]=lsim(G,x,t);
+nn=6;
 true_order=order_estimation( y , nn )
