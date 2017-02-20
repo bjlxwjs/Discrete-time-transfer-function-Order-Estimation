@@ -1,4 +1,4 @@
-use state sub-space way to estimation the order of Discrete-time transfer function.
+use state sub-space way to estimation the order of Discrete-time or Continuous-time transfer function.
 
 you should better make the predict order not too big, if it is far from the true oder may lead a wrong oder.
 
